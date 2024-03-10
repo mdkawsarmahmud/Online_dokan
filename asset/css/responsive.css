@@ -1,0 +1,91 @@
+@media (max-width: 1280px) {
+  /* home css*/
+  .home .home-banner-1,
+  .home .home-banner-2 {
+    min-height: 500px;
+  }
+  .home .home-banner .home-banner-text {
+    transform: translate(-100%, -50%);
+  }
+}
+@media (max-width: 1030px) {
+  /* home css*/
+  .home .home-banner-1,
+  .home .home-banner-2 {
+    background-position: 65% center;
+    min-height: 450px;
+  }
+  .home .home-banner .home-banner-text {
+    transform: translate(-85%, -50%);
+  }
+  /* offer css */
+  .offers .offer-box .offer-info .headline-bigger {
+    font-size: 3rem;
+  }
+  .special .countdown-container .countdown-counter li {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* home css */
+  .home .home-banner .home-banner-text {
+    transform: translate(-65%, -50%);
+  }
+  .home .home-banner .home-banner-text h1 {
+    font-size: 5rem;
+  }
+  /* special */
+  .special .countdown-container {
+    padding: 1rem;
+    padding-bottom: 5rem;
+  }
+}
+@media (max-width: 767px) {
+  /* home  css */
+  .home .home-banner-1,
+  .home .home-banner-2 {
+    background-position: 50% center;
+    min-height: 400px;
+  }
+  .home .home-banner .home-banner-text {
+    transform: translate(-50%, -50%);
+  }
+  .home .home-banner .home-banner-text h1 {
+    font-size: 2.6rem;
+  }
+  .home .home-banner .home-banner-text h2 {
+    font-size: 1.2rem;
+  }
+  .home .home-banner .home-banner-text .btn-danger {
+    padding: 0.5rem 1.5re;
+  }
+  .home .slider-icon {
+    font-size: 2rem;
+  }
+  /* offer vanner css */
+  .products .up_to_content h2 {
+    font-size: 1rem;
+  }
+  /* spcial */
+  .special {
+    padding: 4rem 0;
+  }
+  .special .countdown-container .countdown-counter li {
+    padding: 1rem;
+    width: 20%;
+  }
+}
+@media (max-width: 381px) {
+  /* Home css */
+  .home .home-banner .home-banner-text h1 {
+    font-size: 1.9rem;
+  }
+  .home .home-banner .home-banner-text h2 {
+    font-size: 1.2rem;
+  }
+  /* offer vanner css */
+  .products .up_to_content h2 {
+    font-size: 0.75rem;
+  }
+}
